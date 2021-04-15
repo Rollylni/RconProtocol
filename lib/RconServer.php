@@ -256,7 +256,7 @@ class RconServer {
         if (!($this->socket = stream_socket_server("tcp://". $this->getHost() .":". $this->getPort(), $errno, $errstr))) {
             throw new RconException("Unable to open socket on ". $this->getHost() .":". $this->getPort() .": $errstr ($errno)");
         }
-        stream_set_blocking($this->socket, false);
+        stream_set_blocking($this->socket, true);
         return $this;
     }
     
