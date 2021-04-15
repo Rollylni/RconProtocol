@@ -4,6 +4,8 @@
 
 RCON Protocol is a TCP / IP, communication-based protocol that allows console commands t mo be issued to a server via a "remote console",  or RCON. Most often, RCON is used to allow server owners toanage their game servers without direct access to the machine the server is running on.  For commands to be accepted, the connection must first be authenticated using the server's RCON password
 
+[Source RCON Protocol](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol)
+
 ## Installation
 ```bash
 composer require rollylni/rcon-protocol
