@@ -1,5 +1,5 @@
 {
-  "name": "rollylni/RconProtocol",
+  "name": "rollylni/rcon-protocol",
   "description": "the library is written based on the Source RCON Protocol",
   "version": "0.1.0",
   "type": "library",
