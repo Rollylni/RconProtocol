@@ -1,0 +1,26 @@
+{
+  "name": "rollylni/RconProtocol",
+  "description": "the library is written based on the Source RCON Protocol",
+  "version": "0.1.0",
+  "type": "library",
+  "keywords": ["RCON", "Remote Console", "Protocol"],
+  "license": "MIT",
+
+  "authors": [{
+    "name": "Faruch N.",
+    "email": "rollyllni@gmail.com",
+    "homepage": "https://vk.com/rollylni",
+    "role": "Developer"
+  }],
+
+  "require": {
+    "php": ">=7.1",
+    "rollylni/triggers": "0.0.3"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "RconProtocol\\": "lib/"
+    }
+  }
+}
