@@ -68,7 +68,7 @@ class RconClient {
      * @return bool
      */
     public function authorize(string $password): bool {
-        $this->authorized = true;
+        $this->authorized = false;
         $response = $this->send(self::ID_AUTHORIZE, Packet::TYPE_SERVERDATA_AUTH, $password);
         if ($response instanceof Packet) {
             if ($response->getType() === Packet::TYPE_SERVERDATA_AUTH_RESPONSE && $response->getId() === self::ID_AUTHORIZE) {
